@@ -1,0 +1,32 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Test files
+test/
+*.test.ts
+*.spec.ts
+
+# Development configs
+tsconfig.json
+.prettierrc
+.eslintrc
+.editorconfig
+
+# Git and CI
+.git/
+.github/
+.gitignore
+.gitlab-ci.yml
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Dependencies
+node_modules/ 
